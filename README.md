@@ -4,16 +4,16 @@
 Practice the most basic Linux commands for navigation and file management.
 
 ##Environment
--Ubuntu VM (UTM on Mac)
--Terminal only
+- Ubuntu VM (UTM on Mac)
+- Terminal only
 
 ##Commands Practiced
--whoami
--pwd
+- whoami
+- pwd
 -ls, ls -la
--mkdir, cd, rmdir
--touch, echo, cat
--cp, mv, rm, rm -r
+- mkdir, cd, rmdir
+- touch, echo, cat
+- cp, mv, rm, rm -r
 
 ##Evidence
 - Logs: logs/session-2025-09-06-2338.log
