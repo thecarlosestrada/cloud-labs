@@ -1,0 +1,130 @@
+Script started on 2025-09-06 23:38:15+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="136" LINES="39"]
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ who [Kami
+[?2004lcarlosestrada
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ pd[Kwd
+[?2004l/home/carlosestrada/cloud-labs/00-linux-basics
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ ls
+[?2004l[0m[01;34mlogs[0m
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ ls -la
+[?2004ltotal 12
+drwxrwxr-x 3 carlosestrada carlosestrada 4096 Sep  6 23:38 [0m[01;34m.[0m
+drwxrwxr-x 3 carlosestrada carlosestrada 4096 Sep  6 23:38 [01;34m..[0m
+drwxrwxr-x 2 carlosestrada carlosestrada 4096 Sep  6 23:38 [01;34mlogs[0m
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ ma[Kkdir -[Ktest-dir
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ cd ye[K[Ktest-dir
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics/test-dir[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics/test-dir[00m$ touch file.ex[K[Ktext[K[K[Kxt
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics/test-dir[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics/test-dir[00m$ touc [Kg[Kh file.txt
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics/test-dir[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics/test-dir[00m$ echo "Hello Cloud!" .\[K[K[K > file.txt
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics/test-dir[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics/test-dir[00m$ ct[Kat file.txt
+[?2004lHello Cloud!
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics/test-dir[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics/test-dir[00m$ cp file.txt cp text[K[K[K[K[K[K[Kcopy.txt
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics/test-dir[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics/test-dir[00m$ mv copy.txt renamed [K.txt
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics/test-dir[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics/test-dir[00m$ rm renasm[K[Kmed.txt
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics/test-dir[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics/test-dir[00m$ cd ..
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ rmdir test-dir
+[?2004lrmdir: failed to remove 'test-dir': Directory not empty
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ rmd[K[K[Krm r test-dir[1@-[1P[C[1@ [C[1@ [1@-[1P[1P[1P[C[1@ [1@-[C[C[C[C[C[C[C[C[C[C[C
+[?2004lrm: cannot remove '-': No such file or directory
+rm: cannot remove 'r': No such file or directory
+rm: cannot remove 'test-dir': Is a directory
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ touch file.txt
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ ][Kcat file.txt
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ cd test-dir
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics/test-dir[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics/test-dir[00m$ cat file.txt
+[?2004lHello Cloud!
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics/test-dir[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics/test-dir[00m$ rm -r test-dir
+[?2004lrm: cannot remove 'test-dir': No such file or directory
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics/test-dir[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics/test-dir[00m$ cd ..
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ rem[K[Kmdir test-dir
+[?2004lrmdir: failed to remove 'test-dir': Directory not empty
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ rmdir test-dir[9Pcd ..rm -r test-dir[2Pcat file.txt[1Pd test-dirat file.txt[2@touch[C[C[C[C[C[C[C[C[Crm - r test-dir[1Pdi[C[C[C[C[C[C[C[C[C[C[9Pcd ..[K[K[K[K[Kpwd
+[?2004l/home/carlosestrada/cloud-labs/00-linux-basics
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ ls -la
+[?2004ltotal 16
+drwxrwxr-x 4 carlosestrada carlosestrada 4096 Sep  6 23:46 [0m[01;34m.[0m
+drwxrwxr-x 3 carlosestrada carlosestrada 4096 Sep  6 23:38 [01;34m..[0m
+-rw-rw-r-- 1 carlosestrada carlosestrada    0 Sep  6 23:46 file.txt
+drwxrwxr-x 2 carlosestrada carlosestrada 4096 Sep  6 23:38 [01;34mlogs[0m
+drwxrwxr-x 2 carlosestrada carlosestrada 4096 Sep  6 23:44 [01;34mtest-dir[0m
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ rm r[K-r test-do[Kir
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ las [K[K[Ks la[K[K-la
+[?2004ltotal 12
+drwxrwxr-x 3 carlosestrada carlosestrada 4096 Sep  6 23:49 [0m[01;34m.[0m
+drwxrwxr-x 3 carlosestrada carlosestrada 4096 Sep  6 23:38 [01;34m..[0m
+-rw-rw-r-- 1 carlosestrada carlosestrada    0 Sep  6 23:46 file.txt
+drwxrwxr-x 2 carlosestrada carlosestrada 4096 Sep  6 23:38 [01;34mlogs[0m
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ pwd
+[?2004l/home/carlosestrada/cloud-labs/00-linux-basics
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ cat file.txt
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ cd ..
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs[00m$ cl[K[Kcd ..
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~[00m$ cd [K[K[K[7mcd ~/cloud-labs/00-linux-basics[27mcd ~/cloud-labs/00-linux-basics
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/carlosestrada/cloud-labs/00-linux-basics/.git/
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ git branch -M ma[Kain
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ git remote
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ [7mgit branch -M main[27m
+[7mgit remote add origin https://github.com/TU_USUARIO/cloud-labs.git[27m[Agit branch -M main
+git remote add origin https://github.com/TU_USUARIO/cloud-labs.git[1PO/cloud-labs.git[1PO/cloud-labs.git[1PO/cloud-labs.git[1PO/cloud-labs.git[1PO/cloud-labs.git[1PO/cloud-labs.git[1PO/cloud-labs.git[1PO/cloud-labs.git[1PO/cloud-labs.git[C[1P/cloud-labs.gitt/cloud-labs.gith/cloud-labs.gite/cloud-labs.gitc/cloud-labs.gita/cloud-labs.gitr/cloud-labs.gits/cloud-labs.gitl/cloud-labs.gito/cloud-labs.gits/cloud-labs.git[1P/cloud-labs.git[1P/cloud-labs.git[1P/cloud-labs.git[1P/cloud-labs.gitl/cloud-labs.gito/cloud-labs.gits/cloud-labs.gite/cloud-labs.gits/cloud-labs.gitt/cloud-labs.gitt/cloud-labs.gitr/cloud-labs.gita/cloud-labs.gitd/cloud-labs.gita/cloud-labs.git[1P/cloud-labs.git[1P/cloud-labs.git[1P/cloud-labs.git[1P/cloud-labs.git[1P/cloud-labs.gitr/cloud-labs.gita/cloud-labs.gitd/cloud-labs.gita/cloud-labs.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ git add
+[?2004lNothing specified, nothing added.
+[33mhint: Maybe you wanted to say 'git add .'?[m
+[33mhint: Turn this message off by running[m
+[33mhint: "git config advice.addEmptyPathspec false"[m
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ git add .
+[?2004l[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ git commiy[Kt -m "Lab 00: LInux [K[K[K[K[KI[Kinux Basics - F[KFirst 10 commands"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'carlosestrada@ubuntu-server.(none)')
+[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ gut[K[Kit cin[K[K[K[K[K[K[K[7mgit config --global user.name "Carlos Estrada"[27m
+[7mgit config --global user.email "TU_CORREO_DE_GITHUB"[27m
+[7mgit config --global init.defaultBranch main[27m
+[7mgit config --global --list   # para verificar[27m[A[A[A]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ git config --global user.name "Carlos Estrada"
+git config --global user.email "TU_CORREO_DE_GITHUB"
+git config --global init.defaultBranch main
+git config --global --list   # para verificar[A[A[A]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ [C[C[C[C[C[Cmmit -m "Lab 00: Linux Basics - First 10 commands"
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cz[K[C[10Pnfig --global user.name "Carlos Estrada"
+git config --global user.email "TU_CORREO_DE_GITHUB"
+git config --global init.defaultBranch main
+git config --global --list   # para verificar[A[A[A]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ [C[C[C[C[C[Cmmit -m "Lab 00: Linux Basics - First 10 commands"
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kcommit -m "Lab 00: Linux Basics - First 10 commands"[10Pnfig --global user.name "Carlos Estrada"
+git config --global user.email "TU_CORREO_DE_GITHUB"
+git config --global init.defaultBranch main
+git config --global --list   # para verificar[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[1PB"[C[1P"t"h"e"c"a"r"l"o"s"e"s"t"r"a"d"a"."i"n"f"o"@"g"m"a"i"l"."c"o"m"[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l[?1h=user.name=Carlos Estrada[m
+user.email=thecarlosestrada.info@gmail.com[m
+init.defaultbranch=main[m
+[K[?1l>[?2004h]0;carlosestrada@ubuntu-server: ~/cloud-labs/00-linux-basics[01;32mcarlosestrada@ubuntu-server[00m:[01;34m~/cloud-labs/00-linux-basics[00m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   file.tx
